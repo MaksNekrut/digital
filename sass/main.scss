@@ -1,11 +1,37 @@
 // font-family: 'Lato', sans-serif;
 // font-family: 'Cookie', cursive;
+$color-white: #fff;
+$color-black: #000;
+$color-orange: #de813c;
+$color-blue: #3f519a;
+$color-btn-header: #020202;
+
 @import "sections/header.scss";
 @import "sections/cards.scss";
 @import "sections/creative.scss";
 @import "sections/amazing.scss";
 @import "sections/services.scss";
 @import "sections/team.scss";
-@import "section/person.scss";
+@import "sections/person.scss";
 @import "sections/price.scss";
-@import "sections/footer.scss"
+@import "sections/footer.scss";
+
+
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    paddin: 0;
+}
