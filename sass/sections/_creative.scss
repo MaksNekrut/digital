@@ -1,0 +1,56 @@
+.creative {
+    color: $color-black;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        width: 120rem;
+        min-height: 80rem;
+        margin: 5rem auto;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            &__title {
+                font-family: 'Cookie', cursive;
+                font-size: 5rem;
+                width: 30rem;
+
+            }
+
+            &__info {
+                font-size: 1.8rem;
+                width: 38rem;
+            }
+        }
+
+        .center {
+            min-width: 46rem;
+
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &__sign {
+                font-size: 10rem;
+                font-family: 'Sriracha', cursive;
+
+            }
+
+            &__info {
+                font-size: 1.8rem;
+            }
+
+            &__name {
+                font-family: 'Cookie', cursive;
+                font-size: 5rem;
+            }
+        }
+
+    }
+}
