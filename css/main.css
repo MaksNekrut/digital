@@ -152,6 +152,56 @@
         font-family: 'Cookie', cursive;
         font-size: 5rem; }
 
+.amazing__container {
+  width: 120rem;
+  margin: 0 auto;
+  position: relative; }
+
+.amazing .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .amazing .images__item {
+    margin: 1rem; }
+
+.amazing__info {
+  width: 70rem;
+  height: 30rem;
+  position: absolute;
+  top: 30%;
+  left: 20%; }
+
+.amazing .info {
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .amazing .info__title {
+    font-size: 5rem;
+    font-family: 'Cookie', cursive; }
+  .amazing .info__text {
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 0 5rem;
+    text-indent: 3rem; }
+  .amazing .info__btn {
+    display: flex;
+    justify-content: center; }
+    .amazing .info__btn .button {
+      background-image: linear-gradient(to right, #d17d43, #455396);
+      width: 14.3rem;
+      height: 4rem;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #020202;
+      border-radius: 10rem;
+      border: transparent;
+      background-color: #fff;
+      cursor: pointer; }
+
 html {
   font-size: 10px;
   box-sizing: border-box;
