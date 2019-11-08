@@ -1,0 +1,20 @@
+.services {
+    &__container {
+        display: flex;
+        flex-direction: row;
+        background-color: #f4f4f4;
+    }
+
+    .info {
+        flex-basis: 55%;
+    }
+
+    .image {
+        flex-basis: 45%;
+    }
+
+    .variants {
+        background-image: linear-gradient(to top, #de813c, #3f519a);
+        color: $color-white;
+    }
+}

@@ -202,6 +202,21 @@
       background-color: #fff;
       cursor: pointer; }
 
+.services__container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4; }
+
+.services .info {
+  flex-basis: 55%; }
+
+.services .image {
+  flex-basis: 45%; }
+
+.services .variants {
+  background-image: linear-gradient(to top, #de813c, #3f519a);
+  color: #fff; }
+
 html {
   font-size: 10px;
   box-sizing: border-box;
