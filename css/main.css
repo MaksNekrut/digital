@@ -205,17 +205,56 @@
 .services__container {
   display: flex;
   flex-direction: row;
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  min-height: 66.3rem; }
 
 .services .info {
-  flex-basis: 55%; }
+  flex-basis: 55%;
+  flex-direction: column;
+  text-align: center; }
+  .services .info__title {
+    font-size: 5rem;
+    font-family: 'Cookie', cursive;
+    margin: 3rem auto; }
+  .services .info__text {
+    font-size: 1.8rem;
+    margin: 3rem auto;
+    width: 48rem; }
+  .services .info__btn {
+    display: flex;
+    justify-content: center; }
+    .services .info__btn .button {
+      background-image: linear-gradient(to right, #d17d43, #455396);
+      width: 14.3rem;
+      height: 4rem;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #020202;
+      border-radius: 10rem;
+      border: transparent;
+      background-color: #fff;
+      cursor: pointer; }
 
 .services .image {
-  flex-basis: 45%; }
+  flex-basis: 45%;
+  background-image: url(../../img/serve.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .services .variants {
   background-image: linear-gradient(to top, #de813c, #3f519a);
   color: #fff; }
+
+.services .services__variants {
+  width: 36rem;
+  height: 48rem;
+  position: absolute;
+  top: 3rem;
+  left: 50%; }
 
 html {
   font-size: 10px;
