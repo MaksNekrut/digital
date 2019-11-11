@@ -1,0 +1,24 @@
+.team {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        width: $bp-largest;
+    }
+
+    &__title {
+        font-size: 5rem;
+        font-family: 'Cookie', cursive;
+    }
+
+    &__subtitle {
+        font-size: 1.8rem;
+        margin: 3rem auto;
+        width: 68rem;
+    }
+
+    .persons {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -20,22 +20,40 @@
             height: 11rem;
             align-items: flex-end;
 
+
             &__title {
                 font-size: 6rem;
                 font-weight: 900;
-                margin: 0 0 0 5.3rem;
+                margin: 0 0 0 1.5rem;
+
+                @media only screen and (max-width: $bp-medium) {
+                    font-size: 4rem;
+                    margin: 0 0 1rem 1.5rem;
+                }
+
+
+
             }
 
             &__img {
                 width: 1.4rem;
                 height: 1.4rem;
                 margin-bottom: 1.2rem;
+
+                @media only screen and (max-width: $bp-medium) {
+                    width: 1rem;
+                    height: 1rem;
+                    margin-bottom: 1.8rem;
+                }
             }
+
         }
 
         .nav {
             display: flex;
             align-items: center;
+
+
 
             &__list {
                 list-style: none;
@@ -45,6 +63,13 @@
                 margin-left: auto;
                 margin-bottom: 6rem;
 
+                @media only screen and (max-width: $bp-large) {
+                    margin-left: 0;
+                    width: 60rem;
+                }
+
+
+
                 .nav__item {
                     font-size: 1.6rem;
                     text-transform: uppercase;
@@ -52,12 +77,19 @@
                     padding-bottom: .5rem;
                     border-bottom: 2px solid transparent;
 
+
+
+
                     &:hover {
                         color: $color-black;
                         transition: all .2s;
                         font-weight: bold;
                         padding-bottom: .5rem;
                         border-bottom: 2px solid $color-white;
+                    }
+
+                    @media only screen and (max-width: $bp-largest) {
+                        font-size: 1rem;
                     }
                 }
             }
@@ -74,6 +106,10 @@
             text-align: center;
             font-family: "Cookie", cursive;
             font-size: 11rem;
+
+            @media only screen and (max-width: $bp-largest) {
+                font-size: 8rem;
+            }
         }
 
         .header__subtitle {

@@ -20,11 +20,20 @@
       .header__top .logo__title {
         font-size: 6rem;
         font-weight: 900;
-        margin: 0 0 0 5.3rem; }
+        margin: 0 0 0 1.5rem; }
+        @media only screen and (max-width: 900px) {
+          .header__top .logo__title {
+            font-size: 4rem;
+            margin: 0 0 1rem 1.5rem; } }
       .header__top .logo__img {
         width: 1.4rem;
         height: 1.4rem;
         margin-bottom: 1.2rem; }
+        @media only screen and (max-width: 900px) {
+          .header__top .logo__img {
+            width: 1rem;
+            height: 1rem;
+            margin-bottom: 1.8rem; } }
     .header__top .nav {
       display: flex;
       align-items: center; }
@@ -35,6 +44,10 @@
         justify-content: space-around;
         margin-left: auto;
         margin-bottom: 6rem; }
+        @media only screen and (max-width: 1100px) {
+          .header__top .nav__list {
+            margin-left: 0;
+            width: 60rem; } }
         .header__top .nav__list .nav__item {
           font-size: 1.6rem;
           text-transform: uppercase;
@@ -47,6 +60,9 @@
             font-weight: bold;
             padding-bottom: .5rem;
             border-bottom: 2px solid #fff; }
+          @media only screen and (max-width: 1200px) {
+            .header__top .nav__list .nav__item {
+              font-size: 1rem; } }
   .header__promo {
     display: flex;
     flex-direction: column;
@@ -56,6 +72,9 @@
       text-align: center;
       font-family: "Cookie", cursive;
       font-size: 11rem; }
+      @media only screen and (max-width: 1200px) {
+        .header__promo .header__title {
+          font-size: 8rem; } }
     .header__promo .header__subtitle {
       text-align: center;
       font-size: 3.8rem; }
@@ -255,6 +274,25 @@
   position: absolute;
   top: 3rem;
   left: 50%; }
+
+.team__container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  width: 1200px; }
+
+.team__title {
+  font-size: 5rem;
+  font-family: 'Cookie', cursive; }
+
+.team__subtitle {
+  font-size: 1.8rem;
+  margin: 3rem auto;
+  width: 68rem; }
+
+.team .persons {
+  display: flex;
+  flex-direction: row; }
 
 html {
   font-size: 10px;
