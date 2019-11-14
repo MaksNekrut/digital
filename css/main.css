@@ -346,6 +346,35 @@
       font-size: 1.8rem;
       width: 32rem; }
 
+.price .right {
+  display: flex;
+  flex-direction: column; }
+  .price .right__title {
+    font-size: 5rem;
+    font-family: "Cookie", cursive; }
+  .price .right__subtitle {
+    font-size: 1.8rem;
+    width: 48rem; }
+  .price .right__text {
+    font-size: 1.8rem;
+    width: 48rem; }
+
+.price .promo {
+  display: flex;
+  flex-direction: column; }
+  .price .promo__title {
+    font-size: 5rem;
+    font-family: "Cookie", cursive; }
+  .price .promo__subtitle {
+    font-size: 1.8rem; }
+  .price .promo__cost {
+    font-size: 11rem; }
+  .price .promo__text {
+    font-size: 1.8rem; }
+    .price .promo__text span {
+      font-size: 2.4rem;
+      font-weight: bold; }
+
 html {
   font-size: 10px;
   box-sizing: border-box;

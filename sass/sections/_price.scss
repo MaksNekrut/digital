@@ -1,0 +1,50 @@
+.price {
+    .right {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            font-size: 5rem;
+            font-family: "Cookie", cursive;
+        }
+
+        &__subtitle {
+            font-size: 1.8rem;
+            width: 48rem;
+        }
+
+        &__text {
+            font-size: 1.8rem;
+            width: 48rem;
+        }
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            font-size: 5rem;
+            font-family: "Cookie", cursive;
+        }
+
+        &__subtitle {
+            font-size: 1.8rem;
+        }
+
+        &__cost {
+            font-size: 11rem;
+        }
+
+        &__text {
+            font-size: 1.8rem;
+
+            span {
+                font-size: 2.4rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
