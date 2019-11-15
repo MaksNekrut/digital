@@ -1,0 +1,14 @@
+.footer {
+    .footer__social {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-around;
+
+        i {
+
+            font-size: 5rem;
+            color: orange;
+        }
+    }
+}
