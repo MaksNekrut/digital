@@ -1,14 +1,25 @@
 .footer {
-    .footer__social {
-        display: flex;
-        flex-direction: row;
-        width: 60%;
-        justify-content: space-around;
+  .footer__social {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
 
-        i {
-
-            font-size: 5rem;
-            color: orange;
-        }
+    i {
+      font-size: 5rem;
+      color: orange;
     }
+  }
+
+  .bottom {
+    &__item {
+      width: 30rem;
+      display: flex;
+      flex-direction: column;
+      .bottom__image {
+          width: 7rem;
+          height: 8rem;
+      }
+    }
+  }
 }

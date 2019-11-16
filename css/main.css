@@ -375,6 +375,9 @@
       font-size: 2.4rem;
       font-weight: bold; }
 
+.price .item {
+  font-size: 1.8rem; }
+
 .footer .footer__social {
   display: flex;
   flex-direction: row;
@@ -383,6 +386,14 @@
   .footer .footer__social i {
     font-size: 5rem;
     color: orange; }
+
+.footer .bottom__item {
+  width: 30rem;
+  display: flex;
+  flex-direction: column; }
+  .footer .bottom__item .bottom__image {
+    width: 7rem;
+    height: 8rem; }
 
 html {
   font-size: 10px;
