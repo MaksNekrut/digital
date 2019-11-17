@@ -57,6 +57,15 @@
     .variants {
         background-image: linear-gradient(to top, #de813c, #3f519a);
         color: $color-white;
+        display: flex;
+        flex-direction: fow;
+        flex-wrap: wrap;
+
+        &__item {
+            flex-basis: 50%;
+            text-align: center;
+            padding: 5rem;
+        }
     }
 
     .services__variants {

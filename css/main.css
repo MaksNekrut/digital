@@ -266,7 +266,14 @@
 
 .services .variants {
   background-image: linear-gradient(to top, #de813c, #3f519a);
-  color: #fff; }
+  color: #fff;
+  display: flex;
+  flex-direction: fow;
+  flex-wrap: wrap; }
+  .services .variants__item {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 5rem; }
 
 .services .services__variants {
   width: 36rem;
@@ -292,7 +299,11 @@
 
 .team .persons {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgrey; }
+  .team .persons__item {
+    margin-top: -3rem; }
 
 .person {
   display: flex;
