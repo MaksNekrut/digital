@@ -290,12 +290,17 @@
 
 .team__title {
   font-size: 5rem;
-  font-family: 'Cookie', cursive; }
+  font-family: "Cookie", cursive;
+  text-align: center; }
 
 .team__subtitle {
+  min-height: 15rem;
   font-size: 1.8rem;
   margin: 3rem auto;
-  width: 68rem; }
+  width: 68rem;
+  text-align: justify;
+  text-indent: 4rem;
+  padding: 1rem; }
 
 .team .persons {
   display: flex;
@@ -304,6 +309,11 @@
   background-color: lightgrey; }
   .team .persons__item {
     margin-top: -3rem; }
+    .team .persons__item .persons__name {
+      font-size: 2.5rem;
+      color: brown; }
+    .team .persons__item .persons__profession {
+      font-size: 1.3rem; }
 
 .person {
   display: flex;
