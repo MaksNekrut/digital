@@ -318,6 +318,9 @@
 .person {
   display: flex;
   flex-direction: row; }
+  .person__info {
+    margin-left: auto;
+    padding-right: 2rem; }
   .person .info {
     display: flex;
     flex-direction: column; }
@@ -326,10 +329,12 @@
       font-size: 6.5rem; }
     .person .info__subtitle {
       font-size: 2.2rem;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 1rem; }
     .person .info__text {
       font-size: 1.8rem;
-      width: 46rem; }
+      width: 46rem;
+      margin-bottom: 3rem; }
     .person .info .progress {
       display: flex;
       flex-direction: row;
@@ -347,25 +352,48 @@
       .person .info .progress__percent {
         flex-basis: 20%;
         font-size: 2.6rem;
-        font-weight: bold; }
+        font-weight: bold;
+        text-indent: 3rem; }
       .person .info .progress__line {
         flex-basis: 100%;
         width: 46rem;
         height: 1.4rem;
         border-radius: 1rem;
-        background-color: #e0e0e0; }
+        background-color: #e0e0e0;
+        margin-bottom: 2rem; }
   .person__image {
     display: flex;
     flex-direction: row;
-    position: relative; }
+    position: relative;
+    width: 86rem;
+    justify-content: right; }
     .person__image .image {
-      flex-basis: 50%; }
+      flex-basis: 50%;
+      margin-right: -0.4rem; }
+    .person__image .image-bg {
+      flex-basis: 50%;
+      width: 43.3rem;
+      height: 725px;
+      background-image: linear-gradient(to right, #de813c, #3f519a); }
     .person__image .text {
       position: absolute;
-      top: 0;
-      right: 0;
+      top: 3rem;
+      left: 48rem;
       font-size: 1.8rem;
-      width: 32rem; }
+      width: 32rem;
+      color: white; }
+    .person__image .social {
+      position: absolute;
+      bottom: 3rem;
+      right: 10rem;
+      font-size: 1.8rem;
+      width: 32rem;
+      color: yellow; }
+      .person__image .social > * {
+        font-size: 5rem;
+        margin-right: 3rem;
+        border: 1px solid yellow;
+        border-radius: 50%; }
 
 .price .right {
   display: flex;

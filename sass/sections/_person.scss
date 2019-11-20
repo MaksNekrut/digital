@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: row;
 
+    &__info {
+        margin-left: auto;
+        padding-right: 2rem;
+    }
+
     .info {
         display: flex;
         flex-direction: column;
@@ -14,11 +19,13 @@
         &__subtitle {
             font-size: 2.2rem;
             font-weight: bold;
+            margin-bottom: 1rem;
         }
 
         &__text {
             font-size: 1.8rem;
             width: 46rem;
+            margin-bottom: 3rem;
         }
 
         .progress {
@@ -45,6 +52,7 @@
                 flex-basis: 20%;
                 font-size: 2.6rem;
                 font-weight: bold;
+                text-indent: 3rem;
             }
 
             &__line {
@@ -53,6 +61,7 @@
                 height: 1.4rem;
                 border-radius: 1rem;
                 background-color: #e0e0e0;
+                margin-bottom: 2rem;
             }
         }
 
@@ -63,17 +72,46 @@
         display: flex;
         flex-direction: row;
         position: relative;
+        width: 86rem;
+
+        justify-content: right;
 
         .image {
             flex-basis: 50%;
+            margin-right: -0.4rem;
+        }
+
+        .image-bg {
+
+            flex-basis: 50%;
+            width: 43.3rem;
+            height: 725px;
+            background-image: linear-gradient(to right, #de813c, #3f519a);
         }
 
         .text {
             position: absolute;
-            top: 0;
-            right: 0;
+            top: 3rem;
+            left: 48rem;
             font-size: 1.8rem;
             width: 32rem;
+            color: white;
+        }
+
+        .social {
+            position: absolute;
+            bottom: 3rem;
+            right: 10rem;
+            font-size: 1.8rem;
+            width: 32rem;
+            color: yellow;
+
+            &>* {
+                font-size: 5rem;
+                margin-right: 3rem;
+                border: 1px solid yellow;
+                border-radius: 50%;
+            }
         }
     }
 }
