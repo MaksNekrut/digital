@@ -1,7 +1,24 @@
 .price {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 80rem;
+
+    .left {
+        background-image: linear-gradient(to top, #de813c, #3f519a);
+        flex-basis: 30%;
+    }
+
+    &--left {
+        width: 100%;
+    }
+
     .right {
         display: flex;
         flex-direction: column;
+        flex-basis: 70%;
+        justify-content: flex-start;
+        align-items: flex-end;
 
         &__title {
             font-size: 5rem;
@@ -17,6 +34,16 @@
             font-size: 1.8rem;
             width: 48rem;
         }
+    }
+
+    &__promo {
+        position: absolute;
+        color: $color-black;
+        background-color: $color-white;
+        top: 5rem;
+        left: 32rem;
+        width: 50rem;
+        min-height: 58rem;
     }
 
     .promo {
@@ -34,10 +61,12 @@
 
         &__cost {
             font-size: 11rem;
+            color: #de813c;
         }
 
         &__text {
             font-size: 1.8rem;
+            width: 30rem;
 
             span {
                 font-size: 2.4rem;
@@ -48,6 +77,12 @@
 
     .item {
         font-size: 1.8rem;
+        background-image: linear-gradient(to top, #de813c, #3f519a);
+        position: absolute;
+        top: 5rem;
+        left: 82rem;
+        width: 50rem;
+        min-height: 58rem;
     }
 
 
