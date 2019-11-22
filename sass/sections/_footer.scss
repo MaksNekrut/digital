@@ -1,4 +1,19 @@
 .footer {
+  .footer-top {
+    min-height: 38.9rem;
+    background-image: url('../../img/footer1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 5rem;
+    color: $color-white;
+    font-family: "Cookie", cursive;
+    margin: 5rem 0;
+  }
+
   .footer__social {
     display: flex;
     flex-direction: row;
@@ -6,19 +21,32 @@
     justify-content: space-around;
 
     i {
-      font-size: 5rem;
-      color: orange;
+      font-size: 10rem;
+      color: $color-white;
     }
   }
 
   .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 65rem;
+    font-size: 1.6rem;
+
     &__item {
-      width: 30rem;
+      flex-basis: 33.333%;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+
+      &:last-child {
+        flex-basis: 100%;
+      }
+
       .bottom__image {
-          width: 7rem;
-          height: 8rem;
+        width: 4rem;
+        height: 3rem;
       }
     }
   }
