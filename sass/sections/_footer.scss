@@ -1,7 +1,7 @@
 .footer {
   .footer-top {
     min-height: 38.9rem;
-    background-image: url('../../img/footer1.png');
+    background-image: url("../../img/footer1.png");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,23 +30,28 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 65rem;
+    min-height: 35rem;
     font-size: 1.6rem;
 
     &__item {
       flex-basis: 33.333%;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 5rem;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 8rem;
 
       &:last-child {
         flex-basis: 100%;
+        font-size: 1.8rem;
       }
-
-      .bottom__image {
-        width: 4rem;
-        height: 3rem;
+    }
+    &__text {
+      margin-left: 3rem;
+      width: 15rem;
+      .span {
+        margin-right: 6rem;
+        font-size: 1.8rem;
+        font-weight: bold;
       }
     }
   }
