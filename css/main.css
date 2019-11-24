@@ -147,29 +147,47 @@
     margin: 5rem auto; }
     .creative__container .left {
       display: flex;
-      flex-direction: column;
-      justify-content: space-around; }
+      flex-direction: column; }
       .creative__container .left__title {
         font-family: 'Cookie', cursive;
         font-size: 5rem;
-        width: 30rem; }
+        width: 30rem;
+        margin-bottom: 3rem; }
       .creative__container .left__info {
         font-size: 1.8rem;
-        width: 38rem; }
+        width: 38rem;
+        margin-bottom: 3rem; }
+      .creative__container .left__btn {
+        width: 15rem;
+        margin-bottom: -2rem; }
+        .creative__container .left__btn .button {
+          background-image: linear-gradient(to right, #d17d43, #455396);
+          font-size: 1.6rem;
+          color: #000000;
+          text-transform: uppercase;
+          width: 14.3rem;
+          height: 4rem;
+          border-radius: 3rem;
+          border: none;
+          margin: 0 auto 0 auto; }
     .creative__container .center {
       min-width: 46rem; }
+    .creative__container .creative__right {
+      margin-left: 5rem; }
     .creative__container .right {
       display: flex;
-      flex-direction: column;
-      justify-content: center; }
+      flex-direction: column; }
       .creative__container .right__sign {
         font-size: 10rem;
-        font-family: 'Sriracha', cursive; }
+        font-family: 'Sriracha', cursive;
+        margin-bottom: -10rem; }
       .creative__container .right__info {
-        font-size: 1.8rem; }
+        font-size: 1.8rem;
+        margin-top: 5rem; }
       .creative__container .right__name {
         font-family: 'Cookie', cursive;
-        font-size: 5rem; }
+        font-size: 5rem;
+        text-align: end; }
 
 .amazing__container {
   width: 120rem;
@@ -478,6 +496,19 @@
       list-style-type: none; }
     .price .item__list-variant {
       margin-bottom: 1.5rem; }
+    .price .item__btn {
+      width: 15rem;
+      margin-bottom: -2rem; }
+      .price .item__btn .button {
+        background-image: linear-gradient(to right, #d17d43, #455396);
+        font-size: 1.6rem;
+        color: #000000;
+        text-transform: uppercase;
+        width: 14.3rem;
+        height: 4rem;
+        border-radius: 3rem;
+        border: none;
+        margin: 0 auto 0 auto; }
 
 .footer .footer-top {
   min-height: 38.9rem;
