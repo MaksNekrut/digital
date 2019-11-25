@@ -8,6 +8,8 @@
         min-height: 80rem;
         margin: 5rem auto;
 
+
+
         .left {
             display: flex;
             flex-direction: column;
@@ -19,17 +21,31 @@
                 width: 30rem;
                 margin-bottom: 3rem;
 
+                @media only screen and (max-width: $bp-largest) {
+                    font-size: 4rem;
+                    margin-left: 1.5rem;
+                }
             }
 
             &__info {
                 font-size: 1.8rem;
                 width: 38rem;
                 margin-bottom: 3rem;
+
+                @media only screen and (max-width: $bp-largest) {
+                    font-size: 1.4rem;
+                    margin-left: 1.5rem;
+                }
             }
 
             &__btn {
                 width: 15rem;
                 margin-bottom: -2rem;
+
+                @media only screen and (max-width: $bp-largest) {
+
+                    margin-left: 1.5rem;
+                }
 
                 .button {
                     background-image: linear-gradient(to right, rgba(209, 125, 67, 1), rgba(69, 83, 150, 1));
@@ -42,6 +58,9 @@
                     border: none;
                     margin: 0 auto 0 auto;
 
+                    @media only screen and (max-width: $bp-largest) {
+                        font-size: 1.4rem;
+                    }
                 }
             }
         }
@@ -49,10 +68,20 @@
         .center {
             min-width: 46rem;
 
+            @media only screen and (max-width: $bp-largest) {
+                min-width: 16rem;
+                margin-left: -5rem;
+            }
         }
 
         .creative__right {
             margin-left: 5rem;
+
+            @media only screen and (max-width: $bp-largest) {
+                margin-left: 1.5rem;
+                margin-top: 5rem;
+                width: 20rem;
+            }
         }
 
         .right {
@@ -65,17 +94,28 @@
                 font-family: 'Sriracha', cursive;
                 margin-bottom: -10rem;
 
+                @media only screen and (max-width: $bp-largest) {
+                    display: none;
+                }
             }
 
             &__info {
                 font-size: 1.8rem;
                 margin-top: 5rem;
+
+                @media only screen and (max-width: $bp-largest) {
+                    font-size: 1.4rem;
+                }
             }
 
             &__name {
                 font-family: 'Cookie', cursive;
                 font-size: 5rem;
                 text-align: end;
+
+                @media only screen and (max-width: $bp-largest) {
+                    font-size: 4rem;
+                }
             }
         }
 

@@ -153,13 +153,24 @@
         font-size: 5rem;
         width: 30rem;
         margin-bottom: 3rem; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .left__title {
+            font-size: 4rem;
+            margin-left: 1.5rem; } }
       .creative__container .left__info {
         font-size: 1.8rem;
         width: 38rem;
         margin-bottom: 3rem; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .left__info {
+            font-size: 1.4rem;
+            margin-left: 1.5rem; } }
       .creative__container .left__btn {
         width: 15rem;
         margin-bottom: -2rem; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .left__btn {
+            margin-left: 1.5rem; } }
         .creative__container .left__btn .button {
           background-image: linear-gradient(to right, #d17d43, #455396);
           font-size: 1.6rem;
@@ -170,10 +181,22 @@
           border-radius: 3rem;
           border: none;
           margin: 0 auto 0 auto; }
+          @media only screen and (max-width: 1200px) {
+            .creative__container .left__btn .button {
+              font-size: 1.4rem; } }
     .creative__container .center {
       min-width: 46rem; }
+      @media only screen and (max-width: 1200px) {
+        .creative__container .center {
+          min-width: 16rem;
+          margin-left: -5rem; } }
     .creative__container .creative__right {
       margin-left: 5rem; }
+      @media only screen and (max-width: 1200px) {
+        .creative__container .creative__right {
+          margin-left: 1.5rem;
+          margin-top: 5rem;
+          width: 20rem; } }
     .creative__container .right {
       display: flex;
       flex-direction: column; }
@@ -181,13 +204,22 @@
         font-size: 10rem;
         font-family: 'Sriracha', cursive;
         margin-bottom: -10rem; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .right__sign {
+            display: none; } }
       .creative__container .right__info {
         font-size: 1.8rem;
         margin-top: 5rem; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .right__info {
+            font-size: 1.4rem; } }
       .creative__container .right__name {
         font-family: 'Cookie', cursive;
         font-size: 5rem;
         text-align: end; }
+        @media only screen and (max-width: 1200px) {
+          .creative__container .right__name {
+            font-size: 4rem; } }
 
 .amazing__container {
   width: 120rem;
