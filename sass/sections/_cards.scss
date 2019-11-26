@@ -7,6 +7,12 @@
         flex-direction: row;
         justify-content: space-between;
 
+        &:first-child {
+            @media only screen and (max-width: $bp-large) {
+                display: none;
+            }
+        }
+
         .cards__item {
             width: 37rem;
             //min-height: 41.4rem;
