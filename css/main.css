@@ -295,6 +295,11 @@
   width: 100%;
   position: relative;
   min-height: 66.3rem; }
+  @media only screen and (max-width: 900px) {
+    .services__container {
+      flex-direction: column;
+      position: static;
+      align-items: center; } }
 
 .services .info {
   flex-basis: 55%;
@@ -340,6 +345,12 @@
     flex-basis: 50%;
     text-align: center;
     padding: 5rem; }
+  @media only screen and (max-width: 900px) {
+    .services .variants__image {
+      background-color: gray; } }
+  @media only screen and (max-width: 900px) {
+    .services .variants__text {
+      background-color: #000000; } }
 
 .services .services__variants {
   width: 36rem;
@@ -347,6 +358,11 @@
   position: absolute;
   top: 3rem;
   left: 50%; }
+  @media only screen and (max-width: 900px) {
+    .services .services__variants {
+      margin-top: 5rem;
+      position: static;
+      background-image: url(../../img/serve.png); } }
 
 .team__container {
   display: flex;

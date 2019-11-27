@@ -7,6 +7,12 @@
         width: 100%;
         position: relative;
         min-height: 66.3rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+            position: static;
+            align-items: center;
+        }
     }
 
     .info {
@@ -52,6 +58,8 @@
         background-image: url(../../img/serve.png);
         background-repeat: no-repeat;
         background-size: cover;
+
+
     }
 
     .variants {
@@ -66,6 +74,18 @@
             text-align: center;
             padding: 5rem;
         }
+
+        &__image {
+            @media only screen and (max-width: $bp-medium) {
+                background-color: gray;
+            }
+        }
+
+        &__text {
+            @media only screen and (max-width: $bp-medium) {
+                background-color: $color-black;
+            }
+        }
     }
 
     .services__variants {
@@ -74,5 +94,11 @@
         position: absolute;
         top: 3rem;
         left: 50%;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-top: 5rem;
+            position: static;
+            background-image: url(../../img/serve.png);
+        }
     }
 }
