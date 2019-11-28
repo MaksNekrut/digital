@@ -374,6 +374,9 @@
   font-size: 5rem;
   font-family: "Cookie", cursive;
   text-align: center; }
+  @media only screen and (max-width: 640px) {
+    .team__title {
+      width: 50rem; } }
 
 .team__subtitle {
   min-height: 15rem;
@@ -383,12 +386,21 @@
   text-align: justify;
   text-indent: 4rem;
   padding: 1rem; }
+  @media only screen and (max-width: 640px) {
+    .team__subtitle {
+      width: 50rem;
+      text-align: left; } }
 
 .team .persons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: lightgrey; }
+  @media only screen and (max-width: 640px) {
+    .team .persons {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 15%; } }
   .team .persons__item {
     margin-top: -3rem; }
     .team .persons__item .persons__name {
@@ -396,6 +408,12 @@
       color: brown; }
     .team .persons__item .persons__profession {
       font-size: 1.3rem; }
+
+.team .team_persons:first-child {
+  color: hotpink; }
+  @media only screen and (max-width: 900px) {
+    .team .team_persons:first-child {
+      background-color: hotpink; } }
 
 .person {
   display: flex;
