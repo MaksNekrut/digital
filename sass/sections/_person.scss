@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: row;
 
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
+
     &__info {
         margin-left: auto;
         padding-right: 2rem;
@@ -14,24 +18,42 @@
         &__title {
             font-family: "Cookie", cursive;
             font-size: 6.5rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                text-align: center;
+            }
         }
 
         &__subtitle {
             font-size: 2.2rem;
             font-weight: bold;
             margin-bottom: 1rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                text-align: center;
+            }
         }
 
         &__text {
             font-size: 1.8rem;
             width: 46rem;
             margin-bottom: 3rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                margin-left: 10rem;
+                text-align: justify;
+            }
         }
 
         .progress {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+
+            @media only screen and (max-width: $bp-medium) {
+                margin-left: 1rem;
+
+            }
 
             &__name {
                 font-size: 2.6rem;
@@ -73,12 +95,17 @@
         flex-direction: row;
         position: relative;
         width: 86rem;
-
         justify-content: right;
+
+
 
         .image {
             flex-basis: 50%;
             margin-right: -0.4rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                margin-left: 15rem;
+            }
         }
 
         .image-bg {
@@ -87,6 +114,10 @@
             width: 43.3rem;
             height: 725px;
             background-image: linear-gradient(to right, #de813c, #3f519a);
+
+            @media only screen and (max-width: $bp-medium) {
+                display: none;
+            }
         }
 
         .text {
@@ -96,6 +127,11 @@
             font-size: 1.8rem;
             width: 32rem;
             color: white;
+
+            @media only screen and (max-width: $bp-medium) {
+                top: 3rem;
+                left: 23rem;
+            }
         }
 
         .social {
@@ -105,6 +141,11 @@
             font-size: 1.8rem;
             width: 32rem;
             color: yellow;
+
+            @media only screen and (max-width: $bp-medium) {
+                bottom: 3rem;
+                right: 28rem;
+            }
 
             &>* {
                 font-size: 5rem;

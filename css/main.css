@@ -418,6 +418,9 @@
 .person {
   display: flex;
   flex-direction: row; }
+  @media only screen and (max-width: 900px) {
+    .person {
+      flex-direction: column; } }
   .person__info {
     margin-left: auto;
     padding-right: 2rem; }
@@ -427,18 +430,31 @@
     .person .info__title {
       font-family: "Cookie", cursive;
       font-size: 6.5rem; }
+      @media only screen and (max-width: 900px) {
+        .person .info__title {
+          text-align: center; } }
     .person .info__subtitle {
       font-size: 2.2rem;
       font-weight: bold;
       margin-bottom: 1rem; }
+      @media only screen and (max-width: 900px) {
+        .person .info__subtitle {
+          text-align: center; } }
     .person .info__text {
       font-size: 1.8rem;
       width: 46rem;
       margin-bottom: 3rem; }
+      @media only screen and (max-width: 900px) {
+        .person .info__text {
+          margin-left: 10rem;
+          text-align: justify; } }
     .person .info .progress {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
+      @media only screen and (max-width: 900px) {
+        .person .info .progress {
+          margin-left: 1rem; } }
       .person .info .progress__name {
         font-size: 2.6rem;
         flex-basis: 100%; }
@@ -470,11 +486,17 @@
     .person__image .image {
       flex-basis: 50%;
       margin-right: -0.4rem; }
+      @media only screen and (max-width: 900px) {
+        .person__image .image {
+          margin-left: 15rem; } }
     .person__image .image-bg {
       flex-basis: 50%;
       width: 43.3rem;
       height: 725px;
       background-image: linear-gradient(to right, #de813c, #3f519a); }
+      @media only screen and (max-width: 900px) {
+        .person__image .image-bg {
+          display: none; } }
     .person__image .text {
       position: absolute;
       top: 3rem;
@@ -482,6 +504,10 @@
       font-size: 1.8rem;
       width: 32rem;
       color: white; }
+      @media only screen and (max-width: 900px) {
+        .person__image .text {
+          top: 3rem;
+          left: 23rem; } }
     .person__image .social {
       position: absolute;
       bottom: 3rem;
@@ -489,6 +515,10 @@
       font-size: 1.8rem;
       width: 32rem;
       color: yellow; }
+      @media only screen and (max-width: 900px) {
+        .person__image .social {
+          bottom: 3rem;
+          right: 28rem; } }
       .person__image .social > * {
         font-size: 5rem;
         margin-right: 3rem;
